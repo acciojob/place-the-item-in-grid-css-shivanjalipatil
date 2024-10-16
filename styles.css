@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Optional: adds space between items */
+}
+
+.item {
+  /* No specific changes to individual items */
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+}
